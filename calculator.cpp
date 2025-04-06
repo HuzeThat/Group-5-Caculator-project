@@ -28,18 +28,9 @@ int main() {
  cout << "Invalid operation!" << endl;
  }
 
-
-
-
-
-
-
-
-
-
-
     return 0;
 }
+
 int addition(int a,int b) {
     return a+b;
 }
