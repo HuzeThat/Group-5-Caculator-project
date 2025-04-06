@@ -13,7 +13,7 @@ int main() {
  cin >> operation;
  switch (operation) {
  case '+':
- cout << "Result: " << add(num1, num2) << endl;
+ cout << "Result: " << addition(num1, num2) << endl;
  break;
  case '-':
  cout << "Result: " << subtract(num1, num2) << endl;
