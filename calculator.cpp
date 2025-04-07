@@ -3,6 +3,7 @@ using namespace std;
 int subtract(int a, int b);
 int divide(int a, int b);
 int addition(int a,int b);
+int multiply(int a, int b);
 
 int main() {
     int num1, num2;
@@ -45,3 +46,6 @@ int divide(int a, int b) {
     }
     return a / b;
 }
+int multiply(int a, int b) {
+    return a * b;
+   }
